@@ -21,3 +21,6 @@ body {
     flex-shrink: 1;
     margin: 10px;
   }
+  .invisible{
+    visibility: hidden;
+  }
