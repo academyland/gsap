@@ -1,0 +1,1 @@
+gsap.to(".img2",{y:100,scale:1.2});
