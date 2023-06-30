@@ -24,3 +24,35 @@ body {
   .invisible{
     visibility: hidden;
   }
+
+  .grid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center; align-items: center;
+    gap: 60px; /* You can adjust the gap between squares as per your preference */
+  }
+  
+  .square {
+    background-color: #43d300; /* Set the default color for each square */
+    width: 100px;
+    height: 100px;
+  }
+  .square:nth-child(1),.square:nth-child(6),.square:nth-child(9) {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .square:nth-child(2),.square:nth-child(7),.square:nth-child(10) {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .square:nth-child(3),.square:nth-child(8),.square:nth-child(11) {
+    background-color: rgb(4, 0, 65);
+    width: 100px;
+    height: 100px;
+  }
