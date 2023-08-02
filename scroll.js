@@ -7,6 +7,7 @@ gsap.from(".img"+i,{
     scrollTrigger:{
         trigger:".img"+i,
         markers:true,
-        start:"top bottom"
+        start:"top bottom",
+        scrub:2,
     }
 })
