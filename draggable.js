@@ -1,0 +1,1 @@
+Draggable.create(".img1",{type:"x,y",bounds:window,edgeResistance:0.7})
